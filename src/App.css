@@ -1,0 +1,82 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.ad {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.ad h4 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 18px; /* Увеличиваем размер шрифта */
+}
+
+/* Улучшаем стиль кнопки удаления */
+.ad button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px; /* Уменьшаем отступы */
+  font-size: 14px; /* Уменьшаем размер шрифта */
+}
+
+.ad button:hover {
+  background-color: #c82333;
+  transform: scale(1.05); /* Небольшая анимация при наведении */
+}
+
+.formatted-text {
+  white-space: pre-wrap; /* Перенос строки и сохранение пробелов */
+}
+
